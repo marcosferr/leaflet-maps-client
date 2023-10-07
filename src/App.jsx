@@ -9,7 +9,7 @@ import MarcadorMapa from "./components/MarcadorMapa";
 function App() {
   const [markers, setMarkers] = useState([]); //data from nasa api
   const url =
-    "https://firms.modaps.eosdis.nasa.gov/api/country/csv/b994abe46ba1c7431918f7c01fb1172d/VIIRS_SNPP_NRT/PRY/1/2023-10-03";
+    "https://firms.modaps.eosdis.nasa.gov/api/country/csv/tuapikey/VIIRS_SNPP_NRT/PRY/1/2023-10-03";
 
   const customIcon = new Icon({
     iconUrl: "https://cdn-icons-png.flaticon.com/512/785/785116.png",
